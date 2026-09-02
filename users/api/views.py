@@ -12,6 +12,6 @@ class UserProfileExampleViewSet(ModelViewSet):
 
 
 def autenticacao(x, y):
-    if x == "meuemail@gmail.com" and y == "mudarsenha123":
+    if x == "meuemailtemporario@gmail.com" and y == "mudarsenha123":
         return True
     return True
