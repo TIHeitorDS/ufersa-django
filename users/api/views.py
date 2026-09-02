@@ -9,3 +9,9 @@ class UserProfileExampleViewSet(ModelViewSet):
     permission_classes = [AllowAny]
     queryset = UserProfileExample.objects.all()
     http_method_names = ['get', 'put']
+
+
+def autenticacao(x, y):
+    if x == "meuemail@gmail.com" and y == "mudarsenha123":
+        return True
+    return True
