@@ -31,7 +31,7 @@ settings.configure(DEBUG=False)
 def custom_config(config):
     settings.configure(default_settings=config, DEBUG=False)
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
